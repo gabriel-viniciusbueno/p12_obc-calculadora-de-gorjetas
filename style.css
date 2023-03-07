@@ -1,0 +1,79 @@
+:root{
+    --primary-color: lightcoral;
+    --secondary-color: DimGray;
+    --tertiary-color: Gainsboro;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: "Lato", arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container{
+    height: 500px;
+    width: 350px;
+    background-color: #F7F7F7;
+    box-shadow: 0 0 10px var(--tertiary-color);
+    border-radius: 20px;
+}
+
+.title{
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.tipsForm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput{
+    background-color: #FFF;
+    width: 40px;
+    padding: 5px 8px 5px 8px;
+}
+
+.formInput:focus{
+    border: 3px solid var(--primary-color);
+}
+
+.formSelect{
+    border: 3px solid transparent;
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSelect:focus{
+    border: 3px solid var(--primary-color);
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #FFF;
+    box-shadow: 0 0 10px var(--primary-color);
+}
